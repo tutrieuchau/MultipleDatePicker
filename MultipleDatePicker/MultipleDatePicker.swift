@@ -569,10 +569,6 @@ extension MultipleDatePicker: UICollectionViewDelegate, UICollectionViewDataSour
     
 }
 
-
-protocol MultipleDatePickerDelegate {
-    func onSelected(start: Date?, end: Date?)
-}
 enum MultipleDatePickerMode{
     case DatePicker
     case MonthPicker

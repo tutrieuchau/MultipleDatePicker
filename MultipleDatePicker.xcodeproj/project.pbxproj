@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		657C71D622B8B3ED0002234F /* MultipleDatePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657C71D522B8B3ED0002234F /* MultipleDatePickerDelegate.swift */; };
 		65EE2BF322B7A299004B7C61 /* MultipleDatePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EE2BE922B7A299004B7C61 /* MultipleDatePicker.framework */; };
 		65EE2BF822B7A299004B7C61 /* MultipleDatePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EE2BF722B7A299004B7C61 /* MultipleDatePickerTests.swift */; };
 		65EE2BFA22B7A299004B7C61 /* MultipleDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 65EE2BEC22B7A299004B7C61 /* MultipleDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		657C71D522B8B3ED0002234F /* MultipleDatePickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleDatePickerDelegate.swift; sourceTree = "<group>"; };
 		65EE2BE922B7A299004B7C61 /* MultipleDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultipleDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65EE2BEC22B7A299004B7C61 /* MultipleDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipleDatePicker.h; sourceTree = "<group>"; };
 		65EE2BED22B7A299004B7C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				65EE2C0322B7A324004B7C61 /* MonthCalendarHeadCollectionViewCell.swift */,
 				65EE2C0D22B7A324004B7C61 /* MonthCalendarHeadCollectionViewCell.xib */,
 				65EE2C0A22B7A324004B7C61 /* MultipleDatePicker.swift */,
+				657C71D522B8B3ED0002234F /* MultipleDatePickerDelegate.swift */,
 				65EE2C0F22B7A325004B7C61 /* MultipleDatePicker.xib */,
 				65EE2C0522B7A324004B7C61 /* SGACALayer.swift */,
 				65EE2C0422B7A324004B7C61 /* SGAUIButton.swift */,
@@ -252,6 +255,7 @@
 				65EE2C1422B7A325004B7C61 /* SGAUIButton.swift in Sources */,
 				65EE2C2022B7A325004B7C61 /* MonthCalendarBodyCollectionViewCell.swift in Sources */,
 				65EE2C1A22B7A325004B7C61 /* MultipleDatePicker.swift in Sources */,
+				657C71D622B8B3ED0002234F /* MultipleDatePickerDelegate.swift in Sources */,
 				65EE2C1622B7A325004B7C61 /* UIViewExtension.swift in Sources */,
 				65EE2C1C22B7A325004B7C61 /* SGAUIView.swift in Sources */,
 				65EE2C1522B7A325004B7C61 /* SGACALayer.swift in Sources */,
