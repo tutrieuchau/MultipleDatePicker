@@ -4,7 +4,7 @@ s.version          = '1.0.0'
 s.summary          = 'Multiple Date Picker for Date, month, year picker'
 
 s.description      = <<-DESC
-Create by Trieu Chau From VietNam
+Multiple Date Picker for Date, month, year picker create by Trieu Chau From VietNam
 DESC
 
 s.homepage         = 'https://github.com/tutrieuchau/MultipleDatePicker'
