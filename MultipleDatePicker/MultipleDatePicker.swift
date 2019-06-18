@@ -383,8 +383,9 @@ extension MultipleDatePicker : UIGestureRecognizerDelegate{
                 // make sure select
                 let cell = datePickerCalendarBody.cellForItem(at: lastIndexPath)
                 if cell != nil {
-                    var point = self.contentView.convert(cell!.frame.origin, to: self)
-                    point.y = point.y + 29*5 + 2*6 //cell height*5 + section space * 6
+                    var point = cell!.frame.origin
+                    point.y = point.y + 26
+                    point.x = point.x - 32
                     let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideCalendarAlert))
                     calendarAlert.addGestureRecognizer(tapGesture)
                     calendarAlert.dateFromTo.text = self.dateFromTo.text
@@ -397,9 +398,9 @@ extension MultipleDatePicker : UIGestureRecognizerDelegate{
                 // make sure select
                 let cell = monthPickerCalendar.cellForItem(at: lastIndexPath)
                 if cell != nil {
-                    var point = self.contentView.convert(cell!.frame.origin, to: self)
-                    point.x = point.x + 30
-                    point.y = point.y + 29*2 + 30*2 + 10 // cell height*2 + section space * 2 + ofset
+                    var point = cell!.frame.origin
+                    point.x = point.x - 3
+                    point.y = point.y - 5 // cell height*2 + section space * 2 + ofset
                     let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideCalendarAlert))
                     calendarAlert.addGestureRecognizer(tapGesture)
                     calendarAlert.dateFromTo.text = self.dateFromTo.text
@@ -412,9 +413,9 @@ extension MultipleDatePicker : UIGestureRecognizerDelegate{
                 // make sure select
                 let cell = yearPickerCalendar.cellForItem(at: lastIndexPath)
                 if cell != nil {
-                    var point = self.contentView.convert(cell!.frame.origin, to: self)
-                    point.x = point.x + 20
-                    point.y = point.y + 29*2 + 30*2 + 10 // cell height*2 + section space * 2 + ofset
+                    var point = cell!.frame.origin
+                    point.x = point.x - 15
+                    point.y = point.y - 5 // cell height*2 + section space * 2 + ofset
                     let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideCalendarAlert))
                     calendarAlert.addGestureRecognizer(tapGesture)
                     calendarAlert.dateFromTo.text = self.dateFromTo.text
