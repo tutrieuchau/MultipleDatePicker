@@ -10,7 +10,7 @@ DESC
 s.homepage         = 'https://github.com/tutrieuchau/MultipleDatePicker'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'TrieuChau' => 'tutrieuchau@gmail.com' }
-s.source           = { :git => 'https://github.com/tutrieuchau/MultipleDatePicker.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/tutrieuchau/MultipleDatePicker.git', :tag => 'master' }
 
 s.ios.deployment_target = '10.0'
 s.source_files = 'MultipleDatePicker'

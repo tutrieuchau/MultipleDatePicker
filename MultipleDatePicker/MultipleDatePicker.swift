@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MultipleDatePicker: UIView {
+public class MultipleDatePicker: UIView {
     
     @IBOutlet var contentView: UIView!
     
@@ -145,9 +145,9 @@ class MultipleDatePicker: UIView {
     }
     
     
-    var delegate : MultipleDatePickerDelegate?
+    public var delegate : MultipleDatePickerDelegate?
 
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         initalCalendar()
         pickerMode = .DatePicker
         drawTarget()
@@ -438,7 +438,7 @@ extension MultipleDatePicker : UIGestureRecognizerDelegate{
 
 extension MultipleDatePicker: UICollectionViewDelegate, UICollectionViewDataSource{
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == datePickerCalendarBody || collectionView == datePickerCalendarHead {
             return 7
         }else if collectionView == monthPickerCalendar {
@@ -448,7 +448,7 @@ extension MultipleDatePicker: UICollectionViewDelegate, UICollectionViewDataSour
         }
         return 0
     }
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
+    public func numberOfSections(in collectionView: UICollectionView) -> Int {
         if collectionView == datePickerCalendarHead {
             return 1
         } else if collectionView == datePickerCalendarBody {
@@ -461,7 +461,7 @@ extension MultipleDatePicker: UICollectionViewDelegate, UICollectionViewDataSour
         return 0
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if collectionView == datePickerCalendarHead {
             
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "monthCalendarHeadCell", for: indexPath) as! MonthCalendarHeadCollectionViewCell
@@ -505,7 +505,7 @@ extension MultipleDatePicker: UICollectionViewDelegate, UICollectionViewDataSour
         }
     }
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if collectionView == datePickerCalendarBody
         || collectionView == monthPickerCalendar
         || collectionView == yearPickerCalendar{
