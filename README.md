@@ -31,12 +31,12 @@ I will help you customize it. You just need to send me a cup of coffy for that.@
 ### Demo
 *Screenshots are currently taken from the original repository, as they render exactly the same :-)*
 - **Multiple Date Picker (Drag to select)**
-![alt tag](https://previews.dropbox.com/p/thumb/AAcs3Y7unvMXkeWQEzlefYuncrzppyuaXANEkzo0CQscXiEr49fCFokczCGezqchRq5BJUF231vsci5y9hutumivj2HyucHcMBbPJzfPwBom_68RQwJ1NjPcCC817AFe_hgUO0T0ZVTmP1mkCyljy_tyGjARMuZhY9b2HgfloEGiInH_TJVSl_4zcle7k0an4dtp0XV8l_4_ZdQyROpo3sKxhzgjNSTGjIZbwftm7z4A4Q9Rhd-uUNGyDL55MfEFpK0xqsQS9gJpxeFZpJO-AiJKll5gNgthJPDqX3hXv9GDay8lMNRrnBAsXV1sZRHOklhdjgdfwo85TlPlbBITL__u9sApleIA7uDqg6csPAFGRA/p.png?fv_content=true&size_mode=5)
+![alt tag](https://i.ibb.co/4SvnRxC/demo1.png)
  - **Multiple Month Picker (Select start and end year)**
-![alt tag](https://previews.dropbox.com/p/thumb/AAfkgjhXYIiQ64dz_T6InUqiwMlRlw8Xzia6PqHOMQnVwBHI5q82o4llrU67BAayK3q29QauZ9TAZpNIZ2IE00PQdyCw72EPe6GI8TBtJT1uuevKryE2ZuzxSUj8cDOtepEUMWNFNWEwMOkgMpa-q3D78-I7HDd7cyGqhpngq59bYqd7H-20ZwtfoFhlq00s4pzgllzj8FGn-kJI_pDRhtJURzmuqR2qfA7YZnciFIO7eq-NsTt53oa0XjLU-o6meKee9thGx0uccgjiZQ7YBJ2ctgP1bOych4e6z3mdaQam-iVYGSeQLYsJRNaopzZhdAMLLAPrAo_Z14kkGzjQiqEMlAYIPS-fGthi9_mqRao1HQ/p.png?fv_content=true&size_mode=5)
+![alt tag](https://i.ibb.co/GTVsxpj/demo3.png)
 
  - **Multiple Year Picker (Select start and end year)**
-![alt tag](https://previews.dropbox.com/p/thumb/AAf1RHgvjzqKx1uCkc9T1dCWv3Ak7CapRGNHu61ciuCvsWEsQZzV7GggnWAvlltk4rRnmF0bVk2ptJI5l8q_3yDDWTxxeN9Uy3Mrq7jN2w2KryJZtKwfbanWi4xTvWIjMT5gc7GwH0NN7IhJFfN2lneq0Gt7GU_kz6KA_RkxlorJk0jcrYfEY5umxGVgeDPzUWAqs2Vxf_FHzO0ZnWAOSqXB-rRbmdsaEHM8p_aGn-uSUqh0PAlDr1Sgl2F8zZKbVDd7rdQSMkA-ct-KotmagORNJGBnw6NRbrWxMKNRmCTag_zACIk4vOxcKX1SkqWFilMRGGIzvpjtCRQKHfaSJMS3zl2r5DQNCEhw2p0aTZWEDQ/p.png?fv_content=true&size_mode=5)
+![alt tag](https://i.ibb.co/j6P9w3L/demo2.png)
 
 
 License
