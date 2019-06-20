@@ -1,7 +1,7 @@
 **Version 1.0.0**
 # Multiple Datepicker
-A production of SaiGonApps Team from VietNam
-I really like Datepicker of Android version and hate the default DatePicker of iOS. I searched on the internet a library which have layout look like Android verion,but i couldn't find anything
+#####A production of SaiGonApps Team from VietNam.
+I really like Datepicker of Android version and hate the default DatePicker of iOS. I searched on the internet a library which have layout look like Android verion,but i couldn't find anything.
 So I decided spend two dates in my life to creating something like that for me and someone who hate the default Datepicker of iOS
 I hope you enjoy it.
 ##### One more heads up: As Swift evolves, if you are not using the latest Swift compiler, you shouldn't check out the master branch. Instead, you should go to the release page and pick up whatever suits you.
@@ -26,8 +26,8 @@ I hope you enjoy it.
 ### Troubleshooting and support
 Currently, It has a lot of bugs and issues.
 I will fix it as soon as i can.
-If you want customize it. Please contact me by email nguyenductamwind@gmail.com
-I will help you customize it. You just need to send me a cup of coffy for that.@(^-^)@
+If you want customize it. Please contact me by email nguyenductamwind@gmail.com I will help you customize it.
+You just need to send me a cup of coffy for that.@(^-^)@
 ### Demo
 *Screenshots are currently taken from the original repository, as they render exactly the same :-)*
 - **Multiple Date Picker (Drag to select)**
